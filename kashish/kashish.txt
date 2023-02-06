@@ -1,1 +1,31 @@
-my name is kashish
+import java.lang.*;  // importing this package for Scanner class
+class Calc{          // creating class
+float result=0;      //intializing variable
+void add(int a,int b) {   //creating method
+result=a+b;
+System.out.println ("Sum is
+"+result) ;}
+void sub (int a,int b) {
+result=a-b;
+System.out.println("Dif. is "+result);}
+void mul(int a,int b) {
+result=a×b;
+System.out.println("Product is "+result);}
+void div(int a,int b){
+result=a/b;
+System.out.println("Division is "+result);}
+public static void main(String args [])
+{Calc c = new Calc();
+int a= Integer.parseInt (args [0]);
+int b= Integer.parseInt (args [2]) ;
+char ch=args[1].charAt(0) ;
+if (ch=='+'){
+c. add (a, b) ;}
+else if (ch==
+c. sub (a, b) ;}
+else if (ch=='@') {
+c.mul (a, b) ; }
+else if (ch=='/'){
+c.div (a, b) ;}
+}
+}
