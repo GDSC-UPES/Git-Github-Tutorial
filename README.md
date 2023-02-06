@@ -131,3 +131,15 @@ Now submit the pull request, by clicking on `Create pull request` button.
 <img style="float: right;" src="./assets/submitPR.png" alt="submit pull request" />
 
 Soon, your changes will be merged by our team. You will get a notification email once the changes have been merged.
+
+## Contributors:✨
+
+<table>
+	<tr>
+		<td>
+			<a href="https://github.com/GDSC-UPES/Git-Github-Tutorial/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=GDSC-UPES/Git-Github-Tutorial" />
+</a>
+		</td>
+	</tr>
+</table>
